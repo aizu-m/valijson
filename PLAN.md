@@ -5,16 +5,26 @@ The road to full draft 2020-12 support.
 ## Prerequisites
 
 * ~~Add `kDraft202012` parser mode~~
-* Update to latest version of JSON-Schema-Test-Suite (**in progress**)
+* ~~Update to latest version of JSON-Schema-Test-Suite~~
+  * ~~Fix Draft7 `size/length` keyword failures~~
+  * ~~Fix Draft3 `ref` failures~~
+  * ~~Fix Draft4 `multipleOf` failures~~
+  * ~~Fix Draft7 `type` failures~~
+  * ~~Fix Draft7 `optionalFormat` failures~~
+
+## General
+
+* `format` behaviours (**in progress**)
+
 
 ## Non-annotation keywords
 
-* `$defs` alias/support
+* ~~`$defs` alias/support~~
+* ~~`prefixItems`~~
+* ~~`items` alternative behaviour for 2020~~
 * `$id` parsing
 * `dependentRequired`
 * `dependentSchemas`
-* `prefixItems`
-* `items` alternative behaviour for 2020
 * `minContains`/`maxContains`, may be achievable before full annotation support
 
 ## References
@@ -38,7 +48,3 @@ The road to full draft 2020-12 support.
 * `$dynamicAnchor`
 * `$dynamicRef`
 * dynamic-scope evaluation
-
-## General
-
-* `format` behaviours
